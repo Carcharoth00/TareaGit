@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  color: black;
+  background-image: url(https://static.wikia.nocookie.net/discoelysium_gamepedia_en/images/0/08/Site-background-dark/revision/latest/scale-to-width-down/1500?cb=20210522161512);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  box-sizing: inherit;
+  background-attachment: fixed;
+}
+
+@media only screen and (max-width: 1700px) {
+  body {
+    background-repeat: repeat;
+    background-attachment: scroll;
+  }
+
+}
+
+#banner {
+  width: 100%;
+}
+
+/*++++++++++++++++++++++++++barra menus+++++++++++++++++++++++++++*/
+.barra {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5e5b5b;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 700px) {
+  .barra {
+    flex-direction: column;
+  }
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* ++++++++++++++++++++++++home+++++++++++++++++++++++++++*/
+.columnaizquierda {
+  flex: 70%;
+  background-image: url(https://gamepedia.cursecdn.com/discoelysium_gamepedia_en/6/6e/Mainframe.png);
+  background-size: 100%;
+  border: 0px solid transparent;
+  border-style: solid;
+  background-repeat: no-repeat;
+}
+
+.columnaderecha {
+  flex: 30%;
+  background-color: #111;
+  color: white;
+}
+
+.textodisco {
+  color: white;
+  padding: 20px;
+  font-size: large;
+
+}
+
+#iftwitter {
+  position: static;
+  visibility: visible;
+  width: 100%;
+  height: 100%;
+  display: block;
+  display: flex;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.homebox {
+  background: rgba(0, 0, 0, 0.1);
+  border: 1px solid #505050;
+  margin: 5px;
+  padding: 5px;
+  overflow: auto;
+  text-align: center;
+}
+
+.homebox header {
+  border: none;
+  border-bottom: 1px solid #505050;
+  font-size: 132%;
+  margin: 0 0 10px 0;
+  padding: 0 0 5px 0;
+  overflow: auto;
+
+}
+
+.twitter {
+  position: estatic;
+  visibility: visible;
+  width: 700px;
+  height: 300px;
+  display: block;
+  flex-grow: 1;
+}
+
+#hometwitter {
+  overflow: hidden;
+}
+
+/*++++++++++++++++++++++CARTAS++++++++++++++++++++++++*/
+.carta {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 10%;
+  margin: 10px;
+  min-width: 250px;
+
+}
+
+.carta:hover {
+  box-shadow: 0 8px 16px 0 rgba(243, 242, 242, 0.2);
+}
+
+.contenedorcartas {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  padding: 10px;
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: wheat;
+
+}
+
+#disco {
+  float: right;
+  clear: right;
+}
+
+/*++++++++++++++++++++++pag personajes++++++++++++++++++++++++*/
+.cartapersonajes {
+  box-shadow: 0 4px 8px 0 rgba(245, 244, 244, 0.2);
+  transition: 0.3s;
+  width: 10%;
+  margin: 10px;
+  min-width: 250px;
+  float: left;
+  clear: left;
+
+}
+
+.cuerpo2 {
+  color: whitesmoke;
+  background: transparent;
+  background-image: url(https://gamepedia.cursecdn.com/discoelysium_gamepedia_en/6/6e/Mainframe.png);
+  background-size: 100%;
+  border: 0px solid transparent;
+  border-style: solid;
+  border-width: 40px;
+  background-repeat: no-repeat;
+
+}
+
+.titulos2 {
+  color: whitesmoke;
+}
+
+/*++++++++++++++pag atributos+++++++++++++++++++++++*/
+.titulos {
+  color: whitesmoke;
+  
+}
+
+.cuerpo3 {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.cuerpo {
+  display: flex;
+}
+
+/*+++++++++++++++++++++pag localizaciones++++++++++++++++++++++*/
+.cuerpo4 {
+  color: whitesmoke;
+  background: transparent;
+  background-image: url(https://gamepedia.cursecdn.com/discoelysium_gamepedia_en/6/6e/Mainframe.png);
+  background-size: 100%;
+  border: 0px solid transparent;
+  border-style: solid;
+  border-width: 40px;
+  background-repeat: no-repeat;
+}
+
+.mapa img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#mapa:hover {
+  box-shadow: 0 8px 16px 0 rgba(243, 242, 242, 0.2);
+}
+
+#martinaise {
+  text-align: center;
+}
+
+.cartamapas {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  margin: 10px;
+  min-width: 250px;
+  float: left;
+  clear: left;
+
+}

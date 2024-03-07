@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <img id="banner" src="https://meridiem-games.com/backoffice/public/uploads/blog/3KJZzg.png"></img>
+
+    <div >
+        <ul class="barra">
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="Personajes.html">Personajes</a></li>
+            <li><a href="Atributos.html">Atributos</a></li>
+            <li><a href="Localizaciones.html">Localizaciones</a></li>
+            <li><a href="Formulario.html">Formulario</a></li>
+        </ul>
+    </div>
+    <fieldset class="formulario">
+        <fieldset>
+            <legend>Contacta con nosotros</legend>
+            <form action="mailto:pmontesm@gmail.com" method="post" enctype="text/plain">
+                Nombre
+                <input name="Nombre" value="Tu nombre">
+                <br><br>
+                Fecha de nacimiento
+                <input name="Fecha de nacimiento" type="date">
+                <br><br>
+                Correo
+                <input name="correo" type="mail" value="ejemplo@hotmail.com">
+                <br><br>
+                Personaje favorito
+                <br>
+                <input name=personaje type="radio" value="Harrier"> Harrier Du Bois
+                <input name=personaje type="radio" value="Kim"> Kim Kitsuragi
+                <input name=personaje type="radio" value="Klaasje"> Klaasje Amandou
+                <br><br>
+                Explica tu elección<br>
+                <textarea>Ejemplo</textarea>
+                <br><br>
+                ¿Que te ha parecido la web?
+                <br>
+                <select>
+                    <option>Bien</option>
+                    <option>Mal</option>
+                    <option>Regular</option>
+                </select>
+                <br><br>
+                Pincha aqui para aceptar los terminos y condiciones
+                <input type="checkbox">
+                <br><br>
+                <input type="submit">
+        </fieldset>
+    </fieldset>
+    </form>
+</body>
+<footer>
+    <div class="footer">
+        <p style="color: white;">Pagina por Pablo Montes Maya, en Diciembre de 2023</p>
+    </div>
+</footer>
